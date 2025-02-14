@@ -110,7 +110,7 @@ router.post("/bookroom", async (req, res) => {
             {
                 amount: totalamount * 100,
                 customer: customer.id,
-                currency: "PKR",
+                currency: "INR",
                 receipt_email: token.email
             },
             {
